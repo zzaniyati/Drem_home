@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Drem Homies</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/x-icon"
+      href="images/icons8-home-48.png">
+
+  </head>
+
+  <body>
+
+    <!----- header ------>
+
+    <nav class="navbar navbar-expand-md sticked">
+      <div class="container justify-content-between">
+        <a href>
+          <img src="images/logo.png" class="head-logo" alt>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample"
+          aria-controls="offcanvasExample">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="text-decoration: none;"
+                href> Benefits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="text-decoration: none;"
+                href> Property </a>
+            </li>
+            <li class="nav-item"><a class="nav-link"
+                style="text-decoration: none;" href>
+                Testimonials</a></li>
+          </ul>
+          <a class="btn nav-btn" href="#">Contact Us</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end " id="offcanvasExample">
+      <div class="offcanvas-header border-bottom">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"><a
+            href="home.html"><img src="images/logo.png" alt
+              class="mobile-logo"></a></h5>
+        <button type="button" class="btn-close"
+          data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body ">
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" style="text-decoration: none;" href>
+              Benefits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="text-decoration: none;" href> Property
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link"
+              style="text-decoration: none;" href>
+              Testimonials</a></li>
+        </ul>
+        <a class="btn nav-btn" style="padding-left: 100px;padding-right: 100px;"
+          type="button" href="#">Contact
+          Us</a>
+      </div>
+    </div>
+    <!----- header ------>
+
+    <!----- hero ------>
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-xl-6 col-xxl-6 d-flex justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide"
+              data-bs-ride="true">
+              <div class="carousel-indicators">
+                <button type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/s1.png" class="silder-img" alt>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/s2.png" class="silder-img" alt>
+                </div>
+                <div class="carousel-item">
+                  <img src="images/s3.png" class="silder-img" alt>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-6 col-xxl-6 mt-4 mt-lg-0">
+            <div class="head-1 font-large-hero ">
+              Make Your <img src="images/hero.png" class="pb-lg-4" alt>
+            </div>
+            <div class="head-1 font-large-hero ">
+              <a href style="text-decoration: none;color: #56B0B9;">dream</a>
+              house come
+            </div>
+            <div class="head-1 font-large-hero ">
+              true <img src="images/hero1.png" class="pb-lg-4" alt> with us
+            </div>
+            <div class="row">
+              <div class="col-xl-6 col-xxl-6">
+                <a class="btn nav-btn"
+                  style="padding-left: 100px;padding-right: 100px;"
+                  type="button" href="#">More
+                  Info</a>
+              </div>
+              <div class="col-xl-6 col-xxl-6">
+                <a class="btn hero-btn"
+                  style="padding-left: 100px;padding-right: 100px;"
+                  type="button" href="#">Contact
+                  Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!----- hero ------>
+
+    <!----- benefits ------>
+
+    <div class="my-xl-5 my-xxl-5 my-lg-5 py-xl-5 py-xxl-5 py-lg-5 py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-xl-4 col-xxl-4">
+            <img src="images/healthicons_home-outline.png" alt>
+            <div class="font-mudium-hero ">
+              Beautiful Architecture
+            </div>
+            <div class="font-pera">
+              Duis aute irure dolor in velit esse reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.
+            </div>
+          </div>
+          <div class="col-lg-4 col-xl-4 col-xxl-4">
+            <img src="images/healthicons_home-outline.png" alt>
+            <div class="font-mudium-hero ">
+              Best Location
+            </div>
+            <div class="font-pera">
+              Duis aute irure dolor in velit esse reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.
+            </div>
+          </div>
+          <div class="col-lg-4 col-xl-4 col-xxl-4">
+            <img src="images/healthicons_home-outline.png" alt>
+            <div class="font-mudium-hero ">
+              Affordable Price
+            </div>
+            <div class="font-pera">
+              Duis aute irure dolor in velit esse reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- benefits ------>
+
+    <!----- why ------>
+
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 col-xxl-6 col-xl-6 d-flex justify-content-center">
+            <img src="images/why.jpg" class="why-img" alt>
+          </div>
+          <div class="col-lg-6 col-xxl-6 col-xl-6 pt-lg-5">
+            <div class="head-1 font-large-hero ">
+              Why should <a href
+                style="text-decoration: none;color: #56B0B9;">work</a>
+              with us?
+            </div>
+            <div class="row mt-5">
+
+              <div class="d-flex align-items-start text-center text-md-start">
+                <div class="icon">
+                  <img src="images/why1.png" class="why-sub-img me-lg-4" alt>
+                </div>
+                <div class="content">
+                  <div class="font-mudium-hero ">
+                    Work professionally
+                  </div>
+                  <div class="font-pera">
+                    Duis aute irure dolor in velit esse reprehen derit in
+                    voluptate
+                    cillum dolore eu fugiat nulla.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="row mt-5">
+              <div class="d-flex align-items-start text-center text-md-start">
+                <div class="icon">
+                  <img src="images/why2.png" class="why-sub-img me-lg-4" alt>
+                </div>
+                <div class="content">
+                  <div class="font-mudium-hero ">
+                    Best consulting service
+                  </div>
+                  <div class="font-pera">
+                    Duis aute irure dolor in velit esse reprehen derit in
+                    voluptate
+                    cillum dolore eu fugiat nulla.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="d-flex align-items-start text-center text-md-start">
+                <div class="icon">
+                  <img src="images/why3.png" class="why-sub-img me-lg-4" alt>
+                </div>
+                <div class="content">
+                  <div class="font-mudium-hero ">
+                    Fast time and response
+                  </div>
+                  <div class="font-pera">
+                    Duis aute irure dolor in velit esse reprehen derit in
+                    voluptate
+                    cillum dolore eu fugiat nulla.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- why ------>
+
+    <!----- project ------>
+
+    <div class="my-xl-5 my-xxl-5 my-lg-5 py-xl-5 py-xxl-5 py-lg-5 py-3">
+      <div class="container">
+        <div class="row">
+          <div class="head-1 font-large-hero ">
+            The <a href style="text-decoration: none;color: #56B0B9;">best
+              project</a>
+            we
+            have completed
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="home-demo">
+
+            <div class="owl-carousel owl-theme">
+              <div class="item">
+                <img src="images/h1.png" alt>
+              </div>
+              <div class="item">
+                <img src="images/slider-2.png" alt>
+              </div>
+              <div class="item">
+                <img src="images/slider-3.png" alt>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- project ------>
+
+    <!----- review ------>
+
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-xxl-6 col-xl-6 ">
+            <div class="row">
+              <img src="images/testimonial-1 1.jpg" class="t1-img" alt>
+              <img src="images/t2.jpg" class="t2-img mt-5" alt>
+            </div>
+
+          </div>
+          <div class="col-lg-6 col-xxl-6 col-xl-6">
+
+            <div class="head-1 font-large-hero ">
+              Testimonials from lovely previous buyers.
+            </div>
+            <div class="font-pera fs-5">
+              Duis aute irure dolor in velit esse reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.Duis aute irure dolor in velit esse
+              reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.Duis aute irure dolor in velit esse
+              reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.Duis aute irure dolor in velit esse
+              reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.Duis aute irure dolor in velit esse
+              reprehen derit in voluptate
+              cillum dolore eu fugiat nulla.
+            </div>
+
+            <img src="images/content-2-image-1 1.jpg"
+              class="t3-img mt-5 img-fluid" alt>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----- review ------>
+
+    <!----- footer ------>
+    <footer class="footer  d-flex-lg">
+      <div class="container">
+
+        <div class="row pt-5 pb-xxl-5 pb-xl-5 pb-lg-5 pb-md-0">
+          <div class="col-xxl-3 col-lg-3 col-md-10 col-12 d-none d-lg-block">
+            <img src="images/logo.png" class="w-75" alt>
+            <div class="font-pera fs-5">
+              Duis aute irure dolor in velit esse reprehen derit in voluptate
+              cillum dolore eu fugiat nulla
+            </div>
+
+          </div>
+          <div
+            class="col-xxl-4 col-lg-4 col-md-4 col-6 mb-xxl-0 mb-lg-5 mb-md-5 mb-5 d-none d-lg-block"></div>
+          <div
+            class="col-xxl-2 col-lg-2 col-md-2 col-6 mb-xxl-0 mb-lg-5 mb-md-5 mb-5">
+            <h1 class="font-mudium-hero ">About Company</h1>
+            <ul style="list-style: none;" class="p-0">
+              <li class="my-2">
+                <a class="text-decoration-none font-pera  fs-7" href="#">About
+                  us</a>
+              </li>
+
+              <li class="my-2">
+                <a class="text-decoration-none font-pera  fs-7"
+                  href="#">Contact</a>
+              </li>
+              <li class="my-2">
+                <a class="text-decoration-none font-pera  fs-7"
+                  href="#">Career</a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-xxl-3 col-lg-3 col-md-3 col-6 mb-xxl-0 mb-lg-5 mb-md-5 mb-5">
+            <h1 class="font-mudium-hero ">Services</h1>
+            <ul style="list-style: none;" class="p-0">
+              <li class="my-2">
+                <a class="text-decoration-none font-pera  fs-7"
+                  href="#">Benefits</a>
+              </li>
+              <li class="my-2">
+                <a class="text-decoration-none font-pera  fs-7"
+                  href="#">Property</a>
+              </li>
+              <li class="my-2">
+                <a class="text-decoration-none font-pera  fs-7"
+                  href="#">Testimonials</a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+      <div class=" mt-0 ">
+        <div class="container">
+          <div
+            class="align-items-center d-flex flex-column flex-lg-row justify-content-between border-top">
+            <div class=" font-pera text-center d-flex flex-column">
+              <img src="images/logo.png"
+                class="d-lg-none mx-auto my-3 w-50 img-fluid" alt>
+              <p>© 2021 - All Rights Reserved By Drem Homies with ❤</p>
+            </div>
+            <div class="mt-xxl-3 mt-xl-3 mt-lg-3 mt-md-3 mb-0 mb-sm-3">
+              <ul class="list-inline m-0">
+                <li class="list-inline-item m-0">
+                  <a class="text-decoration-none font-pera fs-7 "
+                    href="#">Privacy Policy |</a>
+                </li>
+                <li class="list-inline-item m-0">
+                  <a class="text-decoration-none font-pera fs-7" href="#">Terms
+                    of Use |</a>
+                </li>
+                <li class="list-inline-item m-0">
+                  <a class="text-decoration-none font-pera fs-7 "
+                    href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!----- footer ------>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="slick.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+          loop: true,
+          margin: 10,
+          center: true,
+          nav: true,
+          dots: true,
+          responsiveClass: true,
+          autoplay: true,
+          autoplayTimeout: 1000,
+
+
+          responsive: {
+            0: {
+              items: 1,
+
+            },
+            600: {
+              items: 2,
+
+            },
+            1000: {
+              items: 3,
+
+            }
+          }
+        })
+      })
+    </script>
+
+  </body>
+
+</html>
